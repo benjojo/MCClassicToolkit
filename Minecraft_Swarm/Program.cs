@@ -17,7 +17,7 @@ namespace Minecraft_Classic_Boom
         static bool Console_In_Use = false;
         static void Main(string[] args)
         {
-            Console.Write("Please Inpit your Session Token: ");
+            Console.Write("Please Input your Session Token: ");
             SessionToken = Console.ReadLine();
 
             HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create("http://www.minecraft.net/classic/list");
